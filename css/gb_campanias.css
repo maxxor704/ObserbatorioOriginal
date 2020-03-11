@@ -1,0 +1,40 @@
+.gb-rectangulo{
+	font-size: 30px;
+	padding: 100px;
+  color: white;
+}
+.gb-img_logo{
+	margin: auto;
+}
+
+.gb-img_logo img{
+float: right;
+	width: 300px;
+}
+
+
+/* Style the counter cards */
+.gb-card_1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.gb-card_1 img{
+  width: 100%;
+}
+
+.gb-card_1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.gb-rectangulo1{
+  height: 50px;
+  color: white;
+}
+
+.gb-rectangulo2{
+  height: 50px;
+  width: 100%;
+}

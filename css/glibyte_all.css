@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  #1d262d;
+}
+.gb-text1{
+font-size: 20px;
+}
+
+/*Lienas en las paginas*/
+.gb-rectangulo1{
+  height: 60px;
+  color: white;
+}
+
+.gb-rectangulo2{
+  height: 60px;
+  width: 100%;
+}

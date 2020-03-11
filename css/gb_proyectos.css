@@ -1,0 +1,54 @@
+/* Style the counter cards */
+.gb-card_1 {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/*animacion de cards 2_proyectos BUGS*/
+/*.gb-column_2_small:hover {
+   width: 100%;
+   transition: 1.5s;
+}*/
+
+.gb-card_1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: .2s;
+}
+
+.gb-texto-encima{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0.8;
+    /*border-radius: 10px;*/
+}
+
+
+
+.gb-img_pro img {
+  width:100%;
+  opacity: 0.9;
+
+}
+
+/*Poner la imagen en escala de grises*/
+.gb-card_1:hover .gb-img_pro img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gb-card_1:hover .gb-texto-encima {
+  padding: 0px;
+  width: 100%;
+  opacity: 1;
+  border-radius: 0;
+  transition: 1.5s;
+}

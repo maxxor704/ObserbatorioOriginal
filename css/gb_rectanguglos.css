@@ -1,0 +1,13 @@
+/*Diseño*/
+
+/*izquierda*/
+.gb-rectangulo1{
+	height: 60px;
+  color: white;
+}
+
+/*derecha*/
+.gb-rectangulo2{
+	height: 60px;
+	width: 100%;
+}
